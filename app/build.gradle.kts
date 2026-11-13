@@ -10,7 +10,9 @@ android {
         applicationId = "dev.installguard"
         minSdk = 30
         targetSdk = 37
-        versionCode = 1
-        versionName = "1.0"
+        // CI run number, so each release installs as an update over the last
+        val build = System.getenv("GITHUB_RUN_NUMBER")?.toInt() ?: 1
+        versionCode = build
+        versionName = "1.0.$build"
     }
 }
