@@ -3,7 +3,7 @@
 ## My dad won't stop installing & letting his carrier (Metro T-Mobile) install junk bloatware, spam, and malware apps on every phone he touches.
 
 > [!CAUTION] 
-> All of you who despite the very sight of an AI agent touching anything should shield your eyes and turn the other way.
+> All of you who despise the very sight of an AI agent touching anything should shield your eyes and turn the other way.
 >
 > Also go away paige. I dont know how you would get here but go away.
 
@@ -13,7 +13,15 @@ This is a fully slopped Android app that blocks newly installed apps until they'
 
 Disclaimer for the third time in case you cant read: this is fully slopped with absolutely no human involvement except this readme that i'm writing right now.
 
+From my brief testing this blocks both play store and sideloaded APKs (idk which one he was doing to get that much shit on his phone) and shows an overlay app thru an accessibility service that will encourage him to uninstall the app or it'll let him keep it if he really wants it (hopefully hes not brain damaged enough to do that tho, we'll see)
+
+If you have a dad like mine then you should set it to a pin that you'll remember but he won't.
+
+Future plans are to basically make it like reverse parental controls but for old non-tech savvy parents. That's if I have to ever touch his phone again.
+
 The rest is what Claude Opus 5.5 xhigh Ultracode wrote. Because honestly i cba. dad doesnt seem to ever learn :(
+
+bye reader!
 
 -----
 
