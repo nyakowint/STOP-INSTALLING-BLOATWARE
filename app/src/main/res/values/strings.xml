@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Install Guard</string>
+    <string name="service_description">Blocks apps that were installed without approval. Turning this off lets unapproved apps run again.</string>
+    <string name="admin_disable_warning">Turning this off lets Install Guard be removed and unapproved apps back in.</string>
+</resources>

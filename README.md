@@ -1,0 +1,25 @@
+# Install Guard
+
+Android app that blocks newly installed apps until they're approved with a PIN. Built for a Samsung phone where the carrier (Metro by T-Mobile) silently pushes junk apps.
+
+- On setup, every app already on the phone is approved.
+- Any app installed later (carrier push, Play Store, APK) gets a full-screen cover right after install and every time it's opened, with a big **Remove this app** button. **Not now** asks "Are you sure?" first.
+- Preinstalled system apps are never blocked. Apps installed by Samsung's region installer (`omcagent`) are auto-approved.
+- No launcher icon. To manage, tap the faint **Manage** link on any block screen, or run `adb shell am start -n dev.installguard/.MainActivity`. Enter the PIN to approve, revoke, uninstall, or change the PIN.
+
+## Install (USB + adb)
+
+1. On the phone: Settings > About phone > Software information > tap **Build number** 7 times, then Settings > Developer options > turn on **USB debugging**.
+2. Plug it in and accept the prompt on the phone.
+3. Run `.\install.ps1`. It installs the app, turns on the accessibility service, makes it a device admin (so it can't be uninstalled directly), and exempts it from battery optimization.
+4. Set a PIN on the phone.
+
+Installing over adb avoids Android's "restricted settings" lock on sideloaded accessibility services.
+
+## Limits
+
+Someone who knows where to look can turn off the accessibility service (Settings > Accessibility > Installed apps) or the device admin, which disables the protection.
+
+## Build
+
+`.\gradlew.bat assembleDebug` (needs JDK 17+ and an Android SDK with platform 37, set in `local.properties`).
