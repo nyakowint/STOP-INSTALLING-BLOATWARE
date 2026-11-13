@@ -15,6 +15,8 @@ Disclaimer for the third time in case you cant read: this is fully slopped with 
 
 From my brief testing this blocks both play store and sideloaded APKs (idk which one he was doing to get that much shit on his phone) and shows an overlay app thru an accessibility service that will encourage him to uninstall the app or it'll let him keep it if he really wants it (hopefully hes not brain damaged enough to do that tho, we'll see)
 
+Tested on a Galaxy A17 5G
+
 If you have a dad like mine then you should set it to a pin that you'll remember but he won't.
 
 Future plans are to basically make it like reverse parental controls but for old non-tech savvy parents. That's if I have to ever touch his phone again.
