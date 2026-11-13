@@ -1,6 +1,22 @@
-# Install Guard
+# STOP-INSTALLING-BLOATWARE
 
-Android app that blocks newly installed apps until they're approved with a PIN. Built for a Samsung phone where the carrier (Metro by T-Mobile) silently pushes junk apps.
+## My dad won't stop installing & letting his carrier (Metro T-Mobile) install junk bloatware, spam, and malware apps on every phone he touches.
+
+> [!CAUTION] 
+> All of you who despite the very sight of an AI agent touching anything should shield your eyes and turn the other way.
+>
+> Also go away paige. I dont know how you would get here but go away.
+
+This is a fully slopped Android app that blocks newly installed apps until they're approved with a PIN. Built for a Samsung phone where the carrier (Metro by T-Mobile) silently pushes junk apps.
+
+
+
+Disclaimer for the third time in case you cant read: this is fully slopped with absolutely no human involvement except this readme that i'm writing right now.
+
+The rest is what Claude Opus 5.5 xhigh Ultracode wrote. Because honestly i cba. dad doesnt seem to ever learn :(
+
+-----
+
 
 - On setup, every app already on the phone is approved.
 - Any app installed later (carrier push, Play Store, APK) gets a full-screen cover right after install and every time it's opened, with a big **Remove this app** button. **Not now** asks "Are you sure?" first.
