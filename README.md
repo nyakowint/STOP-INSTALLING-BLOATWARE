@@ -7,7 +7,7 @@
 >
 > Also go away paige. I dont know how you would get here but go away.
 
-This is a fully slopped Android app that blocks newly installed apps until they're approved with a PIN. Built for a Samsung phone where the carrier (Metro by T-Mobile) silently pushes junk apps.
+I had maybe an hour to do this before having to give the phone back, so this is a fully slopped Android app that blocks newly installed apps until they're approved with a PIN. Built for a Samsung phone where the carrier (Metro by T-Mobile) silently pushes junk apps.
 
 
 
